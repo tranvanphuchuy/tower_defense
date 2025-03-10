@@ -7,8 +7,8 @@ import 'package:flutter/foundation.dart';
 
 const double tileSize = 16;
 
-const double gameWidth = 320;
-const double gameHeight = 320;
+const double gameWidth = 340;
+const double gameHeight = 340;
 const double levelHeight = 15 * tileSize;
 
 Paint pixelArtLayerPaint() => Paint()
