@@ -22,7 +22,7 @@ class FinishScreen extends Component {
     title.add(OpacityEffect.to(1, EffectController(duration: 0.2)));
     add(title);
 
-    const text = 'You successfully defended Prime\'s Mustache(TM)!';
+    const text = 'You successfully defended Optimus Prime\!';
     final words = text.split(' ');
     const delay = 400;
     var at = delay;
@@ -50,7 +50,7 @@ class FinishScreen extends Component {
       soundboard.play(Sound.deez_nutz);
       title.add(BitmapButton(
         bgNinePatch: buttonImage,
-        text: 'Yeah!',
+        text: 'Congratulation! You did it',
         position: Vector2(100, y + 20),
         size: Vector2(120, 32),
         cornerSize: 8,
