@@ -32,7 +32,7 @@ class FinishScreen extends Component {
       doAt(at, () {
         title.add(BitmapText(
           text: word,
-          position: Vector2(160, yy),
+          position: Vector2(180, yy),
           font: fancyFont,
           scale: 2,
           anchor: Anchor.topCenter,

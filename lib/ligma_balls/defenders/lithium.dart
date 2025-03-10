@@ -23,13 +23,13 @@ class Lithium extends SpriteComponent
     final projectile = await makeProjectilePrototype(
       ProjectileKind.sub,
       isAttacker,
-      100,
+      105,
     );
 
     final shooter = AutoTargetShooter(
       radius: targetRadius,
       projectile: projectile,
-      reloadTime: 3,
+      reloadTime: 2.8,
     );
     shooter.anchor = Anchor.center;
 

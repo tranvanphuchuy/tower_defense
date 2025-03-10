@@ -31,9 +31,9 @@ class Teej extends SpriteComponent
       projectile: projectile,
       reloadTime: 3,
     ));
-    add(CircleHitbox(radius: size.x / 2));
+    add(CircleHitbox(radius: (size.x + 10) / 2));
 
-    addLifeIndicatorTo(this, maxDamage: 5, deathSound: Sound.explosion);
+    addLifeIndicatorTo(this, maxDamage: 7, deathSound: Sound.explosion);
     initTakingHits(this);
   }
 }
