@@ -26,7 +26,7 @@ class Smoke extends SpriteAnimationComponent {
           size: Vector2.all(8),
           anchor: Anchor.center,
           removeOnFinish: true,
-          priority: 500,
+          priority: 520,
         );
 
   @override
@@ -34,7 +34,7 @@ class Smoke extends SpriteAnimationComponent {
     animation = await game.loadSpriteAnimation(
       'smoke.png',
       SpriteAnimationData.sequenced(
-        stepTime: 0.1,
+        stepTime: 0.08,
         amount: 6,
         textureSize: Vector2.all(16),
         loop: false,

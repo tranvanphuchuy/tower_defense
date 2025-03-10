@@ -61,7 +61,7 @@ class RenderFps<T extends TextRenderer> extends TextComponent
 
   @override
   void update(double dt) {
-    final fps = (1000 / _time()).toStringAsFixed(0);
+    final fps = (1200 / _time()).toStringAsFixed(0);
     text = '$fps FPS';
   }
 }
